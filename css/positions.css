@@ -1,0 +1,26 @@
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid rebeccapurple;
+}
+
+.box1{
+    position: static;
+}
+
+.box2{
+    position: relative;
+}
+
+.box3{
+    position: absolute;
+}
+
+.box4{
+    position: sticky;
+}
+
+.box5{
+    position: fixed;
+}

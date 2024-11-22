@@ -1,0 +1,58 @@
+.text_uppercase{
+    text-transform: uppercase;
+}
+
+.text_lowercase{
+    text-transform: lowercase;
+}
+
+.text_capitalization{
+    text-transform: capitalize;
+}
+
+.text_center{
+    text-align: center;
+    color: blueviolet;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.text_overline{
+    text-decoration: overline;
+}
+
+.text_linethrough{
+    text-decoration: line-through;
+}
+
+.text_underline{
+    text-decoration: underline;
+}
+
+.text_decor{
+    text-decoration: underline line-through overline;
+}
+
+.text_indent{
+    text-indent: 140px;
+}
+
+.text_letter_spacing{
+    letter-spacing: 30px;
+}
+
+.text_word_spacing{
+    word-spacing: 30px;
+}
+
+.text_line_height{
+    line-height: 40;
+}
+
+.text_shadow{
+    color: blueviolet;
+    text-shadow: 3px 3px 10px red;
+}
+

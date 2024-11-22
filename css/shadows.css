@@ -1,0 +1,17 @@
+.b_shadow{
+    width: 200px;
+    height: 200px;
+   box-shadow: 4px 5px 8px red;
+}
+
+.d_shadow{
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(4px 5px 8px rgb(17,208,61));
+}
+
+.d_shadow2{
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(4px 5px 8px rgb(208, 17, 78));
+}

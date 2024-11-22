@@ -1,0 +1,18 @@
+/* dotted,dashed,double,inset,outset, */
+
+.b_properties{
+    width: 300px;
+    height: 300px;
+    border: 6px solid violet;
+}
+
+.b_properties{
+    width: 300px;
+    height: 300px;
+    /*border: 6px double violet;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;*/
+    border-radius: 0px 80px 0px 80px;
+}
+
+
