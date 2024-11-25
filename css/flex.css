@@ -1,0 +1,35 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+   /* space-bebetween,space-evenly */
+    justify-content: space-around;
+}
+
+.flex-items{
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+}
+
+.image-container{
+    display: image;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.flex-image{
+    background-color: yellowgreen;
+    padding: 8px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}

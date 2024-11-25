@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+    margin: 150px;
+}
+
+.div{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    border: 2px solid azure;
+}
+
+.red{
+    background-color: red;
+    left: 40px;
+    z-index: 2;
+}
+
+.black{
+    background-color: black;
+    left: 60px;
+    z-index: 4;
+}
+
+.violet{
+    background-color: violet;
+    left: 80px;
+    z-index: 6;
+}
+
+.brown{
+    background-color: brown;
+    left: 100px;
+    z-index: 8;
+}
+
+.green{
+    background-color: green;
+    left: 120px;
+    z-index: 10;
+}
