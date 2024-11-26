@@ -1,0 +1,29 @@
+.box{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 40px;
+    transition: 3s;
+    text-align: center;
+    color: brown;
+}
+
+.box1:hover{
+    transform: translate(125px,125px);
+}
+
+.box2:hover{
+    transform: translateX(35px);
+}
+
+.box3:hover{
+    transform: translateY(55px);
+}
+
+.box4:hover{
+    transform: rotate(360deg);
+}
+
+
