@@ -1,5 +1,29 @@
 div{
     width: 200px;
     height: 200px;
-    background-color: blanchedalmond;
+    background-color: chocolate;
+    position: relative;
+    animation: myfirstanimation;
+    animation-duration: 10s;
+    animation-delay: 3s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverses;
+}
+
+@keyframes myfirstanimation
+{
+    0%{background-color: aqua;left:0px;top:0px;}
+    25%{background-color: bisque;left:300px;top:0px;}
+    50%{background-color: blueviolet;left:300px;top:300px;}
+    75%{background-color: chartreuse;left:0px;top:300px;}
+    100%{background-color: deeppink;left: 0px;top:0px;}
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    background-color: indigo;
+    position: relative;
+    animation: imageanimation;
+    animation-duration: 10px;
 }

@@ -1,0 +1,50 @@
+body{
+    background-color: darkgreen;
+}
+
+.details{
+    font-size: 15px;
+    font-weight: 150;
+}
+@media only screen and (min-width:300px) and (max-width:650px){
+    body{
+        font-size: 2em;
+        background: yellowgreen;
+    }
+    p{
+        display: none;
+    }
+    h1,h3{
+        color: bisque;
+    }
+}
+
+@media (min-width:700px) {
+    body{
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width:1050px) {
+    body{
+        background-color: coral;
+    }
+}
+
+@media (min-width:1250px) {
+    body{
+        background-color: brown;
+    }
+}
+
+@media (min-width:1650px) {
+    body{
+        background-color: hotpink;
+    }
+}
+
+@media (min-width:730px) and (max-width:1020px) {
+    body{
+        background-color: lightslategrey;
+    }
+}
